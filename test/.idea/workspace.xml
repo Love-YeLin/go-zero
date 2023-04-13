@@ -5,16 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="210d037a-1e0b-4bff-838a-baf1cd818047" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/mall/user/rpc/etc/user.yaml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall/user/rpc/internal/config/config.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall/user/rpc/internal/logic/getuserlogic.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall/user/rpc/internal/server/userserver.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall/user/rpc/internal/svc/servicecontext.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall/user/rpc/types/user/user.pb.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall/user/rpc/types/user/user_grpc.pb.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall/user/rpc/user.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall/user/rpc/user.proto" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/mall/user/rpc/userclient/user.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.mod" beforeDir="false" afterPath="$PROJECT_DIR$/go.mod" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/mall/user/rpc/internal/logic/getuserlogic.go" beforeDir="false" afterPath="$PROJECT_DIR$/mall/user/rpc/internal/logic/getuserlogic.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -24,8 +18,9 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Api File" />
         <option value="Proto File" />
+        <option value="Api File" />
+        <option value="Api Template" />
       </list>
     </option>
   </component>
@@ -43,7 +38,7 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
-    "DefaultApiTemplateProperty": "Api File",
+    "DefaultApiTemplateProperty": "Api Template",
     "DefaultProtoTemplateProperty": "Proto File",
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
