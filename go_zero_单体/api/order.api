@@ -1,0 +1,16 @@
+@server (
+    group: order
+)
+
+service mail-api {
+    @handler GetOrder
+    get /api/order/:id(GetOrderRequest) returns (GetOrderResponse)
+}
+
+type GetOrderRequest {
+    Id string `path:"id"`
+}
+
+type GetOrderResponse {
+    Order string `json:"order"`
+}

@@ -1,0 +1,16 @@
+@server (
+    group: user
+)
+
+service mail-api {
+    @handler GetUser
+    get /api/user/:id(GetUserRequest) returns (GetUserResponse)
+}
+
+type GetUserRequest {
+    Id string `path:"id"`
+}
+
+type GetUserResponse {
+    Name string `json:"name"`
+}

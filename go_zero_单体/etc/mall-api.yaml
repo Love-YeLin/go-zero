@@ -1,0 +1,18 @@
+Name: mail-api
+Host: 0.0.0.0
+Port: 9090
+Mysql:
+  Path: 127.0.0.1           # 服务器地址
+  Port: 3306                # 端口
+  Username: root            # 数据库用户名
+  Password: qianjinxiao     # 数据库密码
+  #Config                    # 高级配置
+  #Dbname                   # 数据库名
+  # MaxIdleConns            # 空闲中的最大连接数
+  # MaxOpenConns            # 打开到数据库的最大连接数
+  # LogMode                 # 是否开启Gorm全局日志，options=dev|test|prod|silent"`
+  # LogZap                  # 是否通过zap写入日志文件
+CacheRedis:
+  - Host: 127.0.0.1:6379
+    Pass:
+    Type: node
